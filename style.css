@@ -3,3 +3,19 @@ body{
    background: url(./assets/mobile-dark-background.png) no-repeat top center/cover;
    
 }
+
+
+:root{
+   --title-color-cream: #D4CCB6;
+   ;
+}
+
+#app header{
+   display: flex;
+   gap: 10px;
+}
+
+.title{
+   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+   color: var(--title-color-cream);
+}
